@@ -16,7 +16,8 @@ Bootstrap 上下文监听 BootstrapApplicationListener
     public static final int DEFAULT_ORDER = Ordered.HIGHEST_PRECEDENCE + 5;
 结论：Bootstrap的上下文早于SpringBoot上下文
 
-    ·禁用Bootstrap上下文
+    ·禁用Bootstrap上下文  注意加载优先级
     在程序启动参数设置 --spring.cloud.bootstrap.enabled=false
 6.Customizing the Bootstrap Configuration  见代码
 7.Customizing the Bootstrap Property Sources
+可以覆盖配置属性

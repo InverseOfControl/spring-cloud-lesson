@@ -1,2 +1,3 @@
 org.springframework.cloud.bootstrap.BootstrapConfiguration= \
-com.gaohx.springcloudlesson2.config.MyBootstrapConfiguration
+com.gaohx.springcloudlesson2.config.MyBootstrapConfiguration,\
+com.gaohx.springcloudlesson2.config.MyPropertySource
