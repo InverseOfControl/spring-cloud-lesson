@@ -1,0 +1,20 @@
+1.SpringBoot 执行上下文 AnnotationConfigApplicationContext
+2.SpringApplicationRunListener 实现类 EventPublishingRunListener
+说明：在SpringApplication.run()的时候，在不同阶段调用EventPublishingRunListener的方法，发布事件，准备上下文。
+结论：事件跟上下文关系是非常紧密的
+3.Spring Boot 和 Spring Cloud上下文关系
+Spring Boot上下文分两种：
+    Web应用 - AnnotationConfigServletWebServerApplicationContext
+    非Web应用 - AnnotationConfigApplicationContext
+Bootstrap上下文（父）：通过端点localhost:8080/actuator/beans可以看到。Spring Boot的上下文的parentId="bootstrap"
+Bootstrap上下文是通过BootstrapApplicationListener生成的。代码如下：
+context = this.bootstrapServiceContext(environment, event.getSpringApplication(), configName);
+Bootstrap上下文生成好之后，通过Spring Boot上下文的ConfigurableApplicationContext#setParent()设置进去的。
+4.那这两个上下文加载顺序谁先谁后呢？
+由于Bootstrap的上下文是通过BootstrapApplicationListener监听ApplicationEnvironmentPreparedEvent生成的。
+在Spring Boot启动的时候，它的上下文创建是在prepareEnvironment之后，也就是Bootstrap的上下文是优先创建的。
+
+
+
+4.源码中找配置技巧
+ctrl+shift+f 选择 scope -> project and libiary 项目和jar包中找。找到相应的配置元信息和配置类。在配置类中找需要配置的属性
