@@ -8,6 +8,8 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-lesson-1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-lesson-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-3-config-client/pom.xml" />
       </list>
     </option>
   </component>

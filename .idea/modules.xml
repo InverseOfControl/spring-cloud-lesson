@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-lesson.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-lesson.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-lesson-1/spring-cloud-lesson-1.iml" filepath="$PROJECT_DIR$/spring-cloud-lesson-1/spring-cloud-lesson-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-lesson-2/spring-cloud-lesson-2.iml" filepath="$PROJECT_DIR$/spring-cloud-lesson-2/spring-cloud-lesson-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-lesson-3/spring-cloud-lesson-3.iml" filepath="$PROJECT_DIR$/spring-cloud-lesson-3/spring-cloud-lesson-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-lesson-3-config-client/spring-cloud-lesson-3-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-lesson-3-config-client/spring-cloud-lesson-3-config-client.iml" />
     </modules>
   </component>
 </project>
