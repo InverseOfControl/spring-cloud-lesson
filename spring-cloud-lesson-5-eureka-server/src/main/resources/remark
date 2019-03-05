@@ -1,0 +1,4 @@
+1.高可以注册中心，防止单节点故障
+2.eureka server 集群配置
+    ·application-peer1.properties 和 application-peer2.properties 交叉配置
+    ·application.properties 配置公共信息

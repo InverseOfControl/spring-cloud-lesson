@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/spring-cloud-lesson-2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-lesson-3/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-lesson-3-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-3-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-4-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-4-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-5-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-5-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-lesson-5-eureka-client/pom.xml" />
       </list>
     </option>
   </component>

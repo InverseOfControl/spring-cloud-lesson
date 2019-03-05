@@ -1,0 +1,14 @@
+1.配置架构
+    ·传统架构
+    ·Spring Cloud架构
+2.Spring Cloud 配置服务器 参考官网Spring Cloud Config Server
+    ·基于本地仓库创建
+    ·基于github配置
+3.Spring Cloud 配置客户端
+4.动态配置属性Bean
+    ·@ConfigurationProperties
+    ·@EnableConfigurationProperties(User.class)
+5.分布式配置信息的加载优先级是高于application.properties和bootstrap.properties的
+6.使用端点 参考官方文档 2.11 Endpoints
+7.刷新配置信息 RefreshEndpoint、HealthEndpoint、HealthIndicator
+
